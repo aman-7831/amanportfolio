@@ -40,15 +40,31 @@ export default function About() {
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">Who I Am</h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              I'm a passionate data analyst with expertise in transforming complex datasets into
-              clear, actionable insights. With a strong foundation in statistics and business intelligence,
-              I help organizations make data-driven decisions.
+              I'm a Data Analyst with a strong foundation in both Computer Application (BCA)
+               and a pursuit of a Master's in Computer Science (MCS). My expertise lies in transforming 
+               raw data into actionable insights to drive business decisions, with over a year of experience 
+               in dedicated data roles.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              My analytical approach combines technical proficiency with business acumen, enabling me
-              to bridge the gap between raw data and strategic outcomes. I specialize in exploratory
-              data analysis, predictive modeling, and creating compelling visualizations.
+              Currently, I'm at Ihub Pvt Ltd., where I'm responsible for preparing crucial sales, stock,
+               and KPI reports using tools like Excel VBA and Tableau. I actively support managerial and sales 
+               strategies, including incentive planning and LC (Letter of Credit) data coordination for import planning.
             </p>
+
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+              Before this, I was a Secondary Master Data Coordinator at Coca-Cola Beverages Nepal, 
+              maintaining high-accuracy customer master data and reducing reporting errors by 25% through 
+              cleaning and validation across platforms like SAP and VXceed. I'm skilled in cross-functional 
+              and cross-border collaboration, having worked with international teams to align processes. 
+              My previous experience in Live Chat Customer Service also honed my problem-solving, multitasking, and 
+              communication skills.
+            </p>
+
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+              I am highly dedicated and committed to leveraging my problem-solving skills
+               to contribute to corporate growth and continuous improvement. 
+            </p>
+
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="p-4 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800">
                 <p className="text-3xl font-bold text-primary">50+</p>

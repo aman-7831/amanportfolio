@@ -20,8 +20,7 @@ export default function Hero() {
               </h2>
             </div>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              Passionate about turning data into actionable insights. Specializing in data visualization,
-              statistical analysis, and business intelligence to drive strategic decisions.
+              My background combines a Master's in Computer Science focus with practical experience in data analysis and master data management. As a Data Analyst, I specialize in the full data lifecycle, from cleaning and organizing raw data to building dashboards in Tableau and performing sales data modeling. I have proven success in data validation, including reducing reporting errors by 25% at Coca-Cola Beverages Nepal, and I'm committed to using data to drive corporate growth and efficiency.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
