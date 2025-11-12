@@ -41,7 +41,7 @@ export default function Hero() {
 
           <div className="relative">
             <div className="w-full h-96 bg-gradient-to-br from-primary/20 to-primary/5 dark:from-primary/30 dark:to-primary/10 rounded-2xl flex items-center justify-center">
-              <img src="./dist/img/Main.png" alt="" />
+              <img src="./img/Main.png" alt="" />
             </div>
           </div>
         </div>
