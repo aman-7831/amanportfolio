@@ -3,28 +3,28 @@ import { GraduationCap, Award, TrendingUp } from 'lucide-react';
 export default function About() {
   const timeline = [
     {
+      year: '3rd Semester Running',
+      title: 'Masters of Computer Science',
+      description: 'My program began in September 2024 and is scheduled for completion in 2026.',
+      icon: GraduationCap,
+    },
+    {
       year: '2023',
-      title: 'Senior Data Analyst',
-      description: 'Leading data-driven initiatives and building analytical frameworks',
+      title: 'Coca-Cola Beverages Nepal',
+      description: 'I continued my career with Coca-Cola, a leading multinational company, where i managed nationwide seconday customer data. It is rewarding to support key business decisions for this global leader.',
       icon: TrendingUp,
     },
     {
-      year: '2021',
-      title: 'Data Analytics Certification',
-      description: 'Completed advanced certification in Data Science and Analytics',
+      year: '2022',
+      title: 'Avenue of the year | Rotaract',
+      description: 'Under my leadership, the Professional Development Committee received the "Avenue of the Year" award, and 7 of 9 team members were honored as "Rotaract of the Month" for delivering outstanding events.',
       icon: Award,
     },
     {
       year: '2020',
-      title: 'Junior Data Analyst',
-      description: 'Started career in data analysis and business intelligence',
+      title: 'Daraz Nepal',
+      description: 'At the age of 18, I began my professional journey as an intern with a multinational company, gaining valuable early experience and foundational skills in a global environment.',
       icon: TrendingUp,
-    },
-    {
-      year: '2019',
-      title: 'Bachelor in Statistics',
-      description: 'Graduated with honors in Statistics and Data Science',
-      icon: GraduationCap,
     },
   ];
 
@@ -48,11 +48,11 @@ export default function About() {
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
               Currently, I'm at Ihub Pvt Ltd., where I'm responsible for preparing crucial sales, stock,
                and KPI reports using tools like Excel VBA and Tableau. I actively support managerial and sales 
-               strategies, including incentive planning and LC (Letter of Credit) data coordination for import planning.
+               strategies, including incentive.
             </p>
 
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Before this, I was a Secondary Master Data Coordinator at Coca-Cola Beverages Nepal, 
+              Before this, I was managing secondary master data at Coca-Cola Beverages Nepal, 
               maintaining high-accuracy customer master data and reducing reporting errors by 25% through 
               cleaning and validation across platforms like SAP and VXceed. I'm skilled in cross-functional 
               and cross-border collaboration, having worked with international teams to align processes. 
@@ -67,11 +67,11 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="p-4 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800">
-                <p className="text-3xl font-bold text-primary">50+</p>
+                <p className="text-3xl font-bold text-primary">7+</p>
                 <p className="text-gray-600 dark:text-gray-400">Projects Completed</p>
               </div>
               <div className="p-4 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800">
-                <p className="text-3xl font-bold text-primary">5+</p>
+                <p className="text-3xl font-bold text-primary">2+</p>
                 <p className="text-gray-600 dark:text-gray-400">Years Experience</p>
               </div>
             </div>

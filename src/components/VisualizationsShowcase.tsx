@@ -2,32 +2,39 @@ import { BarChart, LineChart, PieChart, HeatMap } from './Visualizations';
 
 export default function VisualizationsShowcase() {
   const barData = [
-    { label: 'FMCG Products', value: 85, color: '#059669' },
-    { label: 'EV Scooters', value: 72, color: '#10b981' },
-    { label: 'Smartphones', value: 90, color: '#34d399' },
-    { label: 'Electronics', value: 68, color: '#6ee7b7' },
+    { label: 'Kathmandu residents use smartphones | Samsung, Apple, Xiaomi, Oppo, Realme', value: 90, color: '#059669' },
+    { label: 'Regularly use digital payments | Fonepay, eSewa, Khalti, IME Pay', value: 85, color: '#10b981' },
+    { label: 'Rely on ride-sharing services | Pathao, Indriver, Yango', value: 75, color: '#34d399' },
+    { label: 'Buying premium FMCG products | Red Bull, Coca-Cola, Pringles, Dove', value: 40, color: '#6ee7b7' },
+    { label: 'Have adopted electric vehicles | Tata, BYD, Tesla, Deepal, NIU, Segway', value: 10, color: '#6ee7b7' },
   ];
 
   const lineData = [
-    { x: 'Jan', y: 65 },
-    { x: 'Feb', y: 72 },
-    { x: 'Mar', y: 68 },
-    { x: 'Apr', y: 80 },
-    { x: 'May', y: 85 },
-    { x: 'Jun', y: 92 },
+    { x: '2015', y: 0 },
+    { x: '2016', y: 15 },
+    { x: '2017', y: 25 },
+    { x: '2018', y: 40 },
+    { x: '2019', y: 60 },
+    { x: '2020', y: 85 },
+     { x: '2021', y: 150 },
+    { x: '2022', y: 220 },
+    { x: '2023', y: 280 },
+    { x: '2024', y: 320 },
   ];
 
   const pieData = [
-    { label: 'Online', value: 45, color: '#059669' },
-    { label: 'Retail', value: 35, color: '#10b981' },
-    { label: 'Wholesale', value: 20, color: '#34d399' },
+    { label: 'Tiktok Store', value: 50, color: '#059669' },
+    { label: 'Facebook/Instagram', value: 15, color: '#10b981' },
+    { label: 'Daraz', value: 25, color: '#34d399' },
+    { label: 'Google Search', value: 7, color: '#34d399' },
+    { label: 'Others', value: 3, color: '#34d399' },
   ];
 
   const heatMapData = [
-    [8, 6, 7, 9, 5],
-    [6, 9, 8, 7, 8],
-    [7, 8, 9, 6, 7],
-    [9, 7, 6, 8, 9],
+    [9, 4, 8, 7, 6, 9, 8],  
+    [8, 9, 8, 9, 7, 8, 7],  
+    [7, 8, 6, 8, 5, 8, 6], 
+    [6, 9, 5, 9, 4, 7, 5],
   ];
 
   return (
@@ -46,28 +53,28 @@ export default function VisualizationsShowcase() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white dark:bg-black p-6 rounded-xl border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-              Market Penetration by Category
+              What Kathmandu is Buying Now (2024 Data)
             </h3>
             <BarChart data={barData} />
           </div>
 
           <div className="bg-white dark:bg-black p-6 rounded-xl border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-              Sales Growth Trend
+              EV Sales Growth Trend in Nepal (2015-2024)
             </h3>
             <LineChart data={lineData} />
           </div>
 
           <div className="bg-white dark:bg-black p-6 rounded-xl border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-              Sales Channel Distribution
+              TikTok Drives 50% of New Customer Growth in Nepal's Digital Market (2025 Data)
             </h3>
             <PieChart data={pieData} />
           </div>
 
           <div className="bg-white dark:bg-black p-6 rounded-xl border border-gray-200 dark:border-gray-800">
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-              Product Correlation Heatmap
+              From Local Stores to TikTok Shop: The 2024 Nepal Retail Scorecard (Heatmap)
             </h3>
             <div className="overflow-x-auto">
               <HeatMap data={heatMapData} />
